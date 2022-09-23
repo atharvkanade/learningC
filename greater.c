@@ -8,15 +8,18 @@ int main()
      printf("Enter  b : ");
     scanf("%d",&b);
 
-    if (a > b)
+    if (a == b)
     {
-      printf("a is greater ");
+      printf("both are equal ");
     }
-    else
+    else if (a>b)
     {
-      printf(" b is greater ");
+        printf(" a is greater ");
     }
-
-
+     
+     else
+     {
+        printf(" b is greater ");
+     }
     return 0;
 }
