@@ -14,12 +14,12 @@ int main()
     }
     else if (a>b)
     {
-        printf(" a is greater ");
+        printf(" a is greater than b  ");
     }
      
      else
      {
-        printf(" b is greater ");
+        printf(" b is greater than a ");
      }
     return 0;
 }
