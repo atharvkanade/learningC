@@ -8,13 +8,13 @@ int main()
      printf("Enter  b : ");
     scanf("%d",&b);
 
-    if (a == b)
+    if (a > b)
     {
-      printf("both are equal ");
+      printf("a is greater than b ");
     }
-    else if (a>b)
+    else if (a==b)
     {
-        printf(" a is greater than b  ");
+        printf(" both are equl  ");
     }
      
      else
