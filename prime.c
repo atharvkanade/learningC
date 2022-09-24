@@ -4,13 +4,13 @@ int main()
 int num;
 printf("Enter a number :" );
 scanf("%d",&num);
-int count;
+int divisor;
 
-for( int i = 1; i <= num; i++) { if(num % i == 0) count += 1; } 
+for( int i = 1; i <= num; i++) { if(num % i == 0) divisor += 1; } 
 
  if(num == 0 || num == 1) 
  printf("%d is not prime", num); 
-    else if(count > 2) 
+    else if(divisor > 2) 
 
         printf("%d is not prime", num);
 else
