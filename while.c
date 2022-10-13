@@ -11,5 +11,5 @@ int main()
         num = num / 10;
     }
     printf("Sum of digit is :%d", sum);
-    return 0;
+     return 0;
 }
